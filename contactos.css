@@ -1,0 +1,109 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	color: #ff6600;
+}
+
+/* Estilos para el contenido de la página de contacto */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact form button {
+    font-size: 18px;
+    background-color: #e31b6d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact ul strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
